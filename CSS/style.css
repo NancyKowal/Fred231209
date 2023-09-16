@@ -117,6 +117,28 @@
   border: #c6daee solid 0.2rem;
   border-radius: 5%;
 }
+
+
+.mtt:link,
+.mtt:visited {
+  text-decoration: none;
+  color: #428896;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.mtt:hover,
+.mtt:active {
+  color: #428896;
+}
+
+/* ************************************ */
+/* PERSONAL TRRAINING */
+/* ************************************ */
+
+.pts .pts-name {
+  color: #5f9ba5;
+}
 /* ************************************ */
 /* SECTION-WHY  */
 /* ************************************ */
