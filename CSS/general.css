@@ -313,7 +313,7 @@ body {
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.3rem rgba(230, 125, 34, 0.502);
+  box-shadow: 0 0 0 0.3rem rgb(63, 104, 111);
 }
 /* HELPER CLASSES */
 .margin-right-sm {
