@@ -1,36 +1,28 @@
-html {
-    /* font-size: 10px; */
-    font-size: 62.5%;
-    /* 10px / 16px = 0.625 = 62.5% */
-    /* percentage of user's browser font-size setting */
-  }
-  
-  body {
-    font-family: "Kubik", sans-serif;
-    line-height: 1;
-    font-weight: 400;
-    color: #acc8e5;
-    background: #212629;
-  }
+
+
 
   /* ************************************ */
 /* HEADER  */
 /* ************************************ */
+ .logo{
+  height: 9.6rem;
+ }
 
+.trp--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 12.8rem;
+  padding: 0 8rem;
+  margin-top: 2.4rem;
+}
 
   .trp--img{
     height:14rem;
   }
   
-  .trp--header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    height: 12.8rem;
-    padding: 0 8rem;
-    margin-top: 2.4rem;
-  }
+
 
   /* ************************************ */
 /* NAVIGATION  */
@@ -49,3 +41,150 @@ html {
     font-weight: 400;
     font-size: 1.8rem;
 }
+
+
+/* ************************************ */
+/* HERO TRP SECTION  */
+/* ************************************ */
+
+.section-hero-trp {
+  padding: 8rem 0 4.8rem 0;
+}
+.hero-trp-text-and-img {
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.4rem;
+  align-items: center;
+}
+
+.p--trp{
+  padding-bottom: 3.2rem;
+}
+.hero-image-trp {
+  width: 85%; 
+  padding-top: 9.6rem;
+}
+
+
+.section-discription-trp{
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+
+/* ************************************ */
+/* TRP SECTION  */
+/* ************************************ */
+
+.section--trp {
+  padding: 8rem 0 12.8rem 0;
+}
+.trp-text-and-img {
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.4rem;
+  align-items: center;
+}
+
+.p--trp{
+  padding-bottom: 3.2rem;
+}
+.image-trp {
+  width: 8ch; 
+  padding-top: 9.6rem;
+}
+
+
+.section-discription-trp{
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+
+/* ************************************ */
+/* FOOTER */
+/* ************************************ */
+
+.footer {
+  padding: 8rem 8rem 8rem 16rem;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
+  gap: 9.6rem;
+}
+p.footer-heading {
+  font-size: 3rem;
+}
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+.logo-col,
+.adress-col,
+.nav-col,
+.nav-ref {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #5f9ba5;
+  margin-top: auto;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.contact {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.adress {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #c6daee;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color:#5f9ba5;
+}
+
