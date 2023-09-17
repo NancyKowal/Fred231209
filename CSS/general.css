@@ -278,7 +278,7 @@ body {
 .link:link,
 .link:visited {
   display: inline-block;
-  color: #e67e22;
+  color: #3f686f;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
@@ -287,7 +287,7 @@ body {
 
 .link:hover,
 .link:active {
-  color: #b8651b;
+  color: #3f686f;
   border-bottom: 1px solid transparent;
 }
 
