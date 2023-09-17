@@ -274,8 +274,8 @@ _  SPACING SYSTEM (px)
 
 .link:hover,
 .link:active {
-  color: #;
-  border-bottom: 1px solid transparent;
+  color: #3f686f;
+  border-bottom:1px solid transparent;
 }
 
 .list {
