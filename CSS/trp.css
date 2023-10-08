@@ -42,6 +42,11 @@
     font-size: 1.8rem;
 }
 
+.trp-nav-list:hover,
+.trp-nav-list:active {
+  color: #428896;
+}
+
 
 /* ************************************ */
 /* HERO TRP SECTION  */
