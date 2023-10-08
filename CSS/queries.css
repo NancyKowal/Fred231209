@@ -94,6 +94,7 @@
     /******** MOBILE******* */
     .mobile-nav-btn {
       display: block;
+      z-index: 9999;
     }
     .main-nav {
       background-color: #212629;
